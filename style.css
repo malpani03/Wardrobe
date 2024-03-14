@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+.foot-custom {
+  margin-top: 50px;
+  height: 100px;
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: burlywood;
+}
+
+img {
+  float: left;
+  width: 100px;
+  height: 270px;
+  object-fit: cover;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+/* .navbar-form {
+  display: flex;
+  align-items: center;
+} */
+.form-group {
+  flex: 1;
+  margin-right: 1px;
+}
+.form-control {
+  width: 150px;
+}
+.btn {
+  flex-shrink: 0;
+}
+.nav-item {
+  margin-right: 50px;
+}
+
+.item-quantity {
+  width: 60px;
+}
+
+.productSection {
+  background-color: burlywood;
+}
